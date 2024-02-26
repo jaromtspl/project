@@ -9,8 +9,8 @@ function Herosection() {
     return (
         <div className='w-[90%] pt-6 mx-auto grid grid-cols-1 lg:grid-cols-2'>
             <div className='hidden lg:flex justify-center items-start'>
-                <div>
-                    <img src={hero} className='h-[800px] w-[600px]' alt="hero-img" />
+                <div >
+                    <img src={hero} className='h-[800px] w-[600px]' alt="hero-img " />
                 </div>
             </div>
 

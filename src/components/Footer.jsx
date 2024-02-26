@@ -6,7 +6,7 @@ export default function Footer() {
     var date = new Date().getFullYear();
 
   return (
-    <div className='2xl:container bg-[#228eab] text-white'>
+    <div className='2xl:container bg-[#228eab] text-white mt-16'>
         <div className=' w-[90%] mx-auto lg:grid lg:grid-cols-4 grid-cols-3 gap-10 text-xs lg:text-sm'>
       <div>
         <h1 className='lg:text-lg text-base font-medium py-5'>About Us</h1>

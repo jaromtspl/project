@@ -36,7 +36,7 @@ function Contactpage() {
     };
 
     return (
-        <div name='contact' style={{ scrollBehavior: "smooth" }} className='2xl:screen py-16'>
+        <div name='contact' style={{ scrollBehavior: "smooth" }} className='2xl:screen py-6'>
             <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8'>
                 <div className='justify-center flex items-center'>
                     <img src="https://ik.imagekit.io/7ymcb1ihc/tripsweet/10586.jpg?updatedAt=1708345359241" alt="img" />

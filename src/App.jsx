@@ -5,6 +5,8 @@ import LandingPage from './components/Landingpage'
 import Nav from './components/Nav'
 import Contactpage from './components/Contactpage'
 import Footer from './components/Footer'
+import AboutUs from './components/AboutUs'
+import Whatsapp from './components/Whatsapp'
 
 
 
@@ -21,8 +23,10 @@ function App() {
           <LandingPage />
           <Herosection />
           <Herosectionend />
+          <AboutUs/>
           <Contactpage />
           <Footer />
+          <Whatsapp/>
         </div>
       </div>
 

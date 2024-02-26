@@ -10,6 +10,7 @@ export default function nav() {
   const [Scrolling, setScrolling] = useState(false)
   const [isOpen, setIsOpen] = useState(false);
 
+  
   const handleScroll = () => {
     const element = document.getElementById("nav");
     if (element) {
@@ -45,9 +46,9 @@ export default function nav() {
       <Careers isOpen={isOpen} setIsOpen={setIsOpen}/>
       <div className=' hidden lg:flex space-x-20 p-5 lg:font-bold '>
         <Link to='home' smooth={true} duration={500} ><h2 className='cursor-pointer hover:text-[#302386] transition-all duration-300'>Home</h2></Link>
-        <h2 className='cursor-pointer hover:text-[#302386] transition-all duration-300'>About Us</h2>
+       <Link to="about" smooth={true} duration={500} offset={-60} > <h2 className='cursor-pointer hover:text-[#302386] transition-all duration-300'>About Us</h2></Link>
         <h2 className='cursor-pointer hover:text-[#302386] transition-all duration-300' onClick={() => setIsOpen(true)}>Careers</h2>
-        <Link to="contact" smooth={true} duration={500} className='cursor-pointer hover:text-[#302386] transition-all duration-300'>
+        <Link to="contact" smooth={true} duration={500} offset={-40}  className='cursor-pointer hover:text-[#302386] transition-all duration-300'>
           <h2>Contact</h2>
         </Link>
       </div>

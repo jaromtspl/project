@@ -25,7 +25,7 @@ export default function SideNav({side,setSide,isOpen,setIsOpen}) {
 
       <ul className='py-2 px-5 text-sm'>
       <Link to='home' smooth={true} duration={500} >  <li className='cursor-pointer mt-2' onClick={Clicked}>Home</li></Link>
-       <li className='cursor-pointer mt-2' onClick={Clicked}>About Us</li>
+       <Link to='about' smooth={true} duration={500}><li className='cursor-pointer mt-2' onClick={Clicked}>About Us</li></Link>
        <li className='cursor-pointer mt-2'  onClick={() => setIsOpen(true)} >Careers</li>
        <Link to="contact" smooth={true} duration={500}> <li  className='cursor-pointer mt-2'  onClick={Clicked}>Contact</li></Link>
        </ul>
