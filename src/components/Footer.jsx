@@ -12,7 +12,7 @@ export default function Footer() {
         <h1 className='lg:text-lg text-base font-medium py-5'>About Us</h1>
         <ul className=' space-y-2'>
             <li><FontAwesomeIcon icon={faAngleRight} className='mr-1'/><span>We specialize in crafting captivating websites tailored to your needs.</span></li>
-            <li><FontAwesomeIcon icon={faAngleRight} className='mr-1'/><span>Our team combines creativity and technology to deliver standout online experiences.</span></li>
+            <li><FontAwesomeIcon icon={faAngleRight} className='mr-1'/><span>Our team combines creativity and technology to deliver standout online experiences..</span></li>
             <li><FontAwesomeIcon icon={faAngleRight} className='mr-1'/><span>Let us bring your vision to life with innovative web solutions.</span></li>
         </ul>
       </div>
